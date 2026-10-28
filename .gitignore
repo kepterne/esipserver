@@ -1,0 +1,30 @@
+# credentials / access wrappers (contain lab passwords)
+*.exp
+
+# build artifacts
+*.o
+esipserv
+esipserv.bin
+
+# decompiled third-party code + jars (not ours to redistribute)
+jarx/
+dec/
+dec2/
+decompiled/
+receiver.jar
+cfr.jar
+
+# toolchain droppings
+jdk-*/
+jre-*/
+
+# node
+node_modules/
+package-lock.json
+
+# intermediates
+shots/cards/
+
+# os junk
+.DS_Store
+*.log

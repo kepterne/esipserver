@@ -1,0 +1,9 @@
+{
+	"esipserv": {
+		"sip": {
+			"port": 5070,
+			"rtpport": 5072,
+			"verbose": 0
+		}
+	}
+}
